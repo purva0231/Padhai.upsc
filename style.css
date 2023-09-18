@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+}
+
+.bg {
+    background-color: black;
+    
+}
+   
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(240, 163, 163);
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.para{
+    background-image: url('C:/Users/purva/web project 2/image/head3.png') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 150vh;
+    filter: blur(8px);
+
+    
+
+} 
+
+
+
+.head{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.para2{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.table{
+    border: solid;
+    margin: 5px;
+ width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  
+  .button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
